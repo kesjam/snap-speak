@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55F8058FA75CF67BA82335B1 /* Pods_VoicePhotoManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BC9C9BBB93217573909C38 /* Pods_VoicePhotoManager.framework */; };
+		2E379A40786CB4163EE5FDA4 /* Pods_VoicePhotoManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B236147DDBB0E33E5CC158FD /* Pods_VoicePhotoManager.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		74CF87CDC472BBAE0F5F2D6E /* Pods-VoicePhotoManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoicePhotoManager.release.xcconfig"; path = "Target Support Files/Pods-VoicePhotoManager/Pods-VoicePhotoManager.release.xcconfig"; sourceTree = "<group>"; };
+		359D1254FF828335FD2562D3 /* Pods-VoicePhotoManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoicePhotoManager.debug.xcconfig"; path = "Target Support Files/Pods-VoicePhotoManager/Pods-VoicePhotoManager.debug.xcconfig"; sourceTree = "<group>"; };
+		5452673127E5273B8F2AF971 /* Pods-VoicePhotoManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoicePhotoManager.release.xcconfig"; path = "Target Support Files/Pods-VoicePhotoManager/Pods-VoicePhotoManager.release.xcconfig"; sourceTree = "<group>"; };
 		7D17F8522D2E2B4800CF9DFB /* VoicePhotoManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoicePhotoManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9177C8D6572657B04660C5BC /* Pods-VoicePhotoManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoicePhotoManager.debug.xcconfig"; path = "Target Support Files/Pods-VoicePhotoManager/Pods-VoicePhotoManager.debug.xcconfig"; sourceTree = "<group>"; };
-		F5BC9C9BBB93217573909C38 /* Pods_VoicePhotoManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoicePhotoManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B236147DDBB0E33E5CC158FD /* Pods_VoicePhotoManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoicePhotoManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,20 +32,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55F8058FA75CF67BA82335B1 /* Pods_VoicePhotoManager.framework in Frameworks */,
+				2E379A40786CB4163EE5FDA4 /* Pods_VoicePhotoManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C17E6791FBF341ABA50E789 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B236147DDBB0E33E5CC158FD /* Pods_VoicePhotoManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7D17F8492D2E2B4800CF9DFB = {
 			isa = PBXGroup;
 			children = (
 				7D17F8542D2E2B4800CF9DFB /* VoicePhotoManager */,
 				7D17F8532D2E2B4800CF9DFB /* Products */,
 				956FF256AD3A30D66B0972AD /* Pods */,
-				8A7DEE679F4CCCEB1A4CF9DC /* Frameworks */,
+				4C17E6791FBF341ABA50E789 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,19 +65,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8A7DEE679F4CCCEB1A4CF9DC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F5BC9C9BBB93217573909C38 /* Pods_VoicePhotoManager.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		956FF256AD3A30D66B0972AD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9177C8D6572657B04660C5BC /* Pods-VoicePhotoManager.debug.xcconfig */,
-				74CF87CDC472BBAE0F5F2D6E /* Pods-VoicePhotoManager.release.xcconfig */,
+				359D1254FF828335FD2562D3 /* Pods-VoicePhotoManager.debug.xcconfig */,
+				5452673127E5273B8F2AF971 /* Pods-VoicePhotoManager.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -81,11 +81,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D17F8602D2E2B4800CF9DFB /* Build configuration list for PBXNativeTarget "VoicePhotoManager" */;
 			buildPhases = (
-				AFA9A707E292C9C769F2CFD0 /* [CP] Check Pods Manifest.lock */,
+				E77BAE85CF68D371CACCF561 /* [CP] Check Pods Manifest.lock */,
 				7D17F84E2D2E2B4800CF9DFB /* Sources */,
 				7D17F84F2D2E2B4800CF9DFB /* Frameworks */,
 				7D17F8502D2E2B4800CF9DFB /* Resources */,
-				8DCCBC73630FA63751246D0C /* [CP] Embed Pods Frameworks */,
+				5F68481A065C35002DB77BB6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,7 +144,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8DCCBC73630FA63751246D0C /* [CP] Embed Pods Frameworks */ = {
+		5F68481A065C35002DB77BB6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -161,7 +161,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoicePhotoManager/Pods-VoicePhotoManager-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AFA9A707E292C9C769F2CFD0 /* [CP] Check Pods Manifest.lock */ = {
+		E77BAE85CF68D371CACCF561 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -317,7 +317,7 @@
 		};
 		7D17F8612D2E2B4800CF9DFB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9177C8D6572657B04660C5BC /* Pods-VoicePhotoManager.debug.xcconfig */;
+			baseConfigurationReference = 359D1254FF828335FD2562D3 /* Pods-VoicePhotoManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -353,7 +353,7 @@
 		};
 		7D17F8622D2E2B4800CF9DFB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74CF87CDC472BBAE0F5F2D6E /* Pods-VoicePhotoManager.release.xcconfig */;
+			baseConfigurationReference = 5452673127E5273B8F2AF971 /* Pods-VoicePhotoManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
